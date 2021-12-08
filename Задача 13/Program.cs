@@ -94,7 +94,7 @@ namespace Задача_13
         }
     }
 
-    public class MultiBuilding : Building
+    sealed public class MultiBuilding : Building
     {
         int layers;
         public int Layers
